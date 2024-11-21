@@ -1,0 +1,6 @@
+C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\ENT\bin\Debug\ENT.dll
+C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\ENT\bin\Debug\ENT.pdb
+C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\ENT\obj\Debug\ENT.csproj.AssemblyReference.cache
+C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\ENT\obj\Debug\ENT.csproj.CoreCompileInputs.cache
+C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\ENT\obj\Debug\ENT.dll
+C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\ENT\obj\Debug\ENT.pdb
