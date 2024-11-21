@@ -11,7 +11,14 @@
         "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj",
         "frameworks": {
           "net472": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              }
+            }
           }
         }
       },
@@ -71,6 +78,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -92,6 +105,25 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     },
     "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {

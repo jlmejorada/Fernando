@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDMaui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+91d3b58a5ec5886bc39a7aab1e52692de540939f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

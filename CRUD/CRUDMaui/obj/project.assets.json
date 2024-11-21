@@ -2209,11 +2209,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -4434,11 +4450,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -6659,11 +6691,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -8884,11 +8932,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -11109,11 +11173,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -13334,11 +13414,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -15559,11 +15655,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -17784,11 +17896,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -18223,11 +18351,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -18662,11 +18806,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -19101,11 +19261,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -19540,11 +19716,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -19979,11 +20171,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -20418,11 +20626,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -20857,11 +21081,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -21296,11 +21536,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -21735,11 +21991,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -22174,11 +22446,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -22613,11 +22901,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -23052,11 +23356,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -23491,11 +23811,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -23930,11 +24266,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -24369,11 +24721,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -24808,11 +25176,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -25416,11 +25800,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -25984,11 +26384,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -26552,11 +26968,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -27120,11 +27552,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -27688,11 +28136,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -28256,11 +28720,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -28824,11 +29304,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -29398,11 +29894,27 @@
       },
       "BL/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/BL.dll": {}
         },
         "runtime": {
           "bin/placeholder/BL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
         }
       },
       "ENT/1.0.0": {
@@ -33602,6 +34114,11 @@
       "type": "project",
       "path": "../BL/BL.csproj",
       "msbuildProject": "../BL/BL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
     },
     "ENT/1.0.0": {
       "type": "project",

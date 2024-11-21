@@ -150,8 +150,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClsConexion.cs" />
-    <Compile Include="ClsListado.cs" />
-    <Compile Include="ClsManejadora.cs" />
+    <Compile Include="ClsListadoDAL.cs" />
+    <Compile Include="ClsManejadoraDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
