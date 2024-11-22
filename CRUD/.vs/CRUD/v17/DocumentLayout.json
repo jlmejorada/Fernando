@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6B821927-EF4C-4D4A-B7BD-0E17DB7CD3D6}|CRUDAsp\\CRUDAsp.csproj|solutionrelative:crudasp\\controllers\\personacontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6B821927-EF4C-4D4A-B7BD-0E17DB7CD3D6}|CRUDAsp\\CRUDAsp.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudasp\\views\\personacontroler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6B821927-EF4C-4D4A-B7BD-0E17DB7CD3D6}|CRUDAsp\\CRUDAsp.csproj|solutionrelative:crudasp\\views\\personacontroler\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B821927-EF4C-4D4A-B7BD-0E17DB7CD3D6}|CRUDAsp\\CRUDAsp.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudasp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6B821927-EF4C-4D4A-B7BD-0E17DB7CD3D6}|CRUDAsp\\CRUDAsp.csproj|solutionrelative:crudasp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,19 +19,19 @@
       "RelativeMoniker": "D:0:0:{6B821927-EF4C-4D4A-B7BD-0E17DB7CD3D6}|CRUDAsp\\CRUDAsp.csproj|solutionrelative:crudasp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4109168-A0BF-495C-ACF9-43BD6BF1BE4A}|BL\\BL.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\bl\\clslistadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4109168-A0BF-495C-ACF9-43BD6BF1BE4A}|BL\\BL.csproj|C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\bl\\clslistadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4109168-A0BF-495C-ACF9-43BD6BF1BE4A}|BL\\BL.csproj|solutionrelative:bl\\clslistadobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4109168-A0BF-495C-ACF9-43BD6BF1BE4A}|BL\\BL.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4109168-A0BF-495C-ACF9-43BD6BF1BE4A}|BL\\BL.csproj|C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4109168-A0BF-495C-ACF9-43BD6BF1BE4A}|BL\\BL.csproj|solutionrelative:bl\\clsmanejadorabl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34837553-ABA6-4D09-91EB-449DC6BACE08}|DAL\\DAL.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\dal\\clsmanejadoradal.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{34837553-ABA6-4D09-91EB-449DC6BACE08}|DAL\\DAL.csproj|C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\dal\\clsmanejadoradal.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{34837553-ABA6-4D09-91EB-449DC6BACE08}|DAL\\DAL.csproj|solutionrelative:dal\\clsmanejadoradal.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34837553-ABA6-4D09-91EB-449DC6BACE08}|DAL\\DAL.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\dal\\clslistadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{34837553-ABA6-4D09-91EB-449DC6BACE08}|DAL\\DAL.csproj|C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\dal\\clslistadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34837553-ABA6-4D09-91EB-449DC6BACE08}|DAL\\DAL.csproj|solutionrelative:dal\\clslistadodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 193,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\Views\\PersonaControler\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDAsp\\Views\\PersonaControler\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\Views\\PersonaControler\\Index.cshtml",
+              "RelativeToolTip": "CRUDAsp\\Views\\PersonaControler\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T12:47:14.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "CRUDAsp\\Views\\Shared\\Error.cshtml",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "CRUDAsp\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-21T13:17:54.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T13:17:54.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ClsManejadoraDAL.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\ClsManejadoraDAL.cs",
               "RelativeDocumentMoniker": "DAL\\ClsManejadoraDAL.cs",
@@ -71,12 +87,11 @@
               "RelativeToolTip": "DAL\\ClsManejadoraDAL.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAgwL0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:51:06.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:51:06.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ClsManejadoraBL.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\ClsManejadoraBL.cs",
               "RelativeDocumentMoniker": "BL\\ClsManejadoraBL.cs",
@@ -84,12 +99,11 @@
               "RelativeToolTip": "BL\\ClsManejadoraBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:46:03.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:46:03.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClsListadoBL.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\ClsListadoBL.cs",
               "RelativeDocumentMoniker": "BL\\ClsListadoBL.cs",
@@ -97,12 +111,11 @@
               "RelativeToolTip": "BL\\ClsListadoBL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T11:31:23.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T11:31:23.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CRUDAsp\\Views\\Home\\Index.cshtml",
@@ -121,14 +134,14 @@
               "RelativeDocumentMoniker": "CRUDAsp\\Controllers\\PersonaControler.cs",
               "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\Controllers\\PersonaControler.cs",
               "RelativeToolTip": "CRUDAsp\\Controllers\\PersonaControler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T11:28:31.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ClsListadoDAL.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\ClsListadoDAL.cs",
               "RelativeDocumentMoniker": "DAL\\ClsListadoDAL.cs",
@@ -136,12 +149,11 @@
               "RelativeToolTip": "DAL\\ClsListadoDAL.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T11:26:43.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T11:26:43.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ClsPersona.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ClsPersona.cs",
               "RelativeDocumentMoniker": "ENT\\ClsPersona.cs",
@@ -149,12 +161,11 @@
               "RelativeToolTip": "ENT\\ClsPersona.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T13:28:00.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T13:28:00.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ClsConexion.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\ClsConexion.cs",
               "RelativeDocumentMoniker": "DAL\\ClsConexion.cs",
@@ -162,8 +173,7 @@
               "RelativeToolTip": "DAL\\ClsConexion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T13:03:44.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T13:03:44.357Z"
             }
           ]
         }

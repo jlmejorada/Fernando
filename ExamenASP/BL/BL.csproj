@@ -41,12 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListaCandidatosBL.cs" />
+    <Compile Include="ListaMisionesBL.cs" />
+    <Compile Include="ManejadoraBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{5e6a0f7f-d1aa-44a2-bc75-95f00521fde6}</Project>
       <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENT\ENT.csproj">
+      <Project>{a234b562-6e51-4459-9910-35476a139459}</Project>
+      <Name>ENT</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

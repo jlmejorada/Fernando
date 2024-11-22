@@ -1,0 +1,70 @@
+ENT
+	ClsCandidato:
+				- int id { ;get ;set }
+				- String nombre { ;get ;set }
+				- String apellidos { ;get ;set }
+				- String direccion { ;get ;set }
+				- String pais { ;get ;set }
+				- String telefono { ;get ;set }
+				- DateTime fechaNac { ;get ;set }
+				- int precioMedio { ;get ;set }
+
+				+ ClsCandidato()
+				+ ClsCandidato(id, nombre, apellidos, direccion, pais, telefono, fechaNac, precioMedio) 
+
+	ClsMision:
+				- int id { ;get ;set }
+				- String nombre { ;get ;set }
+				- int dificultad { ;get ;set }
+
+				+ ClsMision()
+				+ ClsMision(id, nombre, dificultad)
+
+DAL
+	listaCandidatosDAL:
+				+ static List<ClsCandidato> listaCandidatos
+				+ List<ClsCandidato> extraeCandidatosDAL()
+
+	listaMisionesDAL:
+				+ static List<ClsMision> listaMisiones
+				+ List<ClsMision> extraeMisionesDAL()
+
+	manejadoraDAL:
+				+ ClsMision seleccionaMisionDAL(id)
+				+ ClsCandidato seleccionaCandidatoDAL()
+
+BL
+	listaMisionesBL:
+				+ List<ClsMision> extraeMisionesBL()
+
+	
+				+ List<ClsCandidato> extraeCandidatosBL(dificultad)
+
+	manejadoraBL:
+				+ ClsMision seleccionaMisionDAL(id)
+				+ ClsCandidato seleccionaCandidatoDAL()
+
+UI
+	VM:
+		Misiones
+			List<ClsMision> misiones()
+
+		MisionesYCandidatos
+			List<ClsCandidato> candidatosAptos()
+			
+		DetallesCandidatos: 
+				<ClsCandidato> infoCandidatos()
+
+
+	Controller:
+		Misiones		Muestra una lista de misiones
+		httpost:
+		Misiones		Muestra la lista de misiones y los candidatos que
+						pueden realizar la mision seleccionada
+
+		Candidato
+
+	Views:
+		Misiones
+
+		Candidato
