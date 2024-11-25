@@ -152,7 +152,8 @@
     <Compile Include="ClsConexion.cs" />
     <Compile Include="ClsListadoDepartamentoDAL.cs" />
     <Compile Include="ClsListadoPersonaDAL.cs" />
-    <Compile Include="ClsManejadoraDAL.cs" />
+    <Compile Include="ClsManejadoraDepartamentoDAL.cs" />
+    <Compile Include="ClsManejadoraPersonaDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

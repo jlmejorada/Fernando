@@ -3,6 +3,8 @@ using BL;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DAL;
+using CRUDAsp.Models.VM;
+using CRUDAsp.Models;
 
 namespace CRUDAsp.Controllers
 {
@@ -11,38 +13,58 @@ namespace CRUDAsp.Controllers
         // GET: PersonaControler
         public ActionResult Index()
         {
-            List<ClsPersona> lista = new List<ClsPersona>();
+            List<ClsPersonaNombreDepartamento> listaPersonaDept = new List<ClsPersonaNombreDepartamento>();
             try
             {
-                lista = ClsListadoBL.ListaPersonasBL();
+                List<ClsPersona> personas = ClsListadoPersonaBL.ListaPersonasBL();
+
+                List<ClsDepartamento> departamentos = ClsListadoDepartamentoBL.ListaDepartamentosBL();
+
+                foreach (ClsPersona persona in personas)
+                {
+                    listaPersonaDept.Add(new ClsPersonaNombreDepartamento(persona, departamentos));
+                }
             }
             catch (Exception ex)
             {
                 return View("Error");
             }
-            return View(lista);
+            return View(listaPersonaDept);
         }
 
         // GET: PersonaControler/Details/5
         public ActionResult Details(int id)
         {
             ClsPersona persona = new ClsPersona();
+            List<ClsDepartamento> departamentos = new List<ClsDepartamento>();
+            ClsPersonaNombreDepartamento personaDept = new ClsPersonaNombreDepartamento();
             try
             {
-                persona = ClsManejadoraBL.BuscaPersonaBL(id);
+                persona = ClsManejadoraPersonaBL.BuscaPersonaBL(id);
+                departamentos = ClsListadoDepartamentoBL.ListaDepartamentosBL();
+                personaDept = new ClsPersonaNombreDepartamento(persona, departamentos);
             }
             catch (Exception e)
             {
                 return View("Error");
             }
             
-            return View("Details", persona);
+            return View("Details", personaDept);
         }
 
         // GET: PersonaControler/Create
         public ActionResult Create()
         {
-            return View("Create");
+            ClsPersonaConDepartamentosVM vm;
+            try
+            {
+                vm = new ClsPersonaConDepartamentosVM();
+            }
+            catch (Exception e)
+            {
+                return View("Error");
+            }
+            return View("Create", vm);
         }
         // POST: PersonaControler/Create
         [HttpPost]
@@ -52,14 +74,14 @@ namespace CRUDAsp.Controllers
             bool seCreo = false;
             try
             {
-                seCreo=ClsManejadoraBL.CreaPersonaBL(persona);
-                if (seCreo) { ViewBag.Mensaje = "Persona guardada correctamente"; } 
+                seCreo = ClsManejadoraPersonaBL.CreaPersonaBL(persona);
+                if (seCreo) { ViewBag.Mensaje = "Persona guardada correctamente"; }
                 else { ViewBag.Mensaje = "No se ha podido guardar la persona"; }
-                return View();
+                return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                return View("Index");
             }
         }
 

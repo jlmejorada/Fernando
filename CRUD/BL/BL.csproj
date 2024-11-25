@@ -149,8 +149,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClsListadoBL.cs" />
-    <Compile Include="ClsManejadoraBL.cs" />
+    <Compile Include="ClsListadoDepartamentoBL.cs" />
+    <Compile Include="ClsManejadoraDepartamentoBL.cs" />
+    <Compile Include="ClsListadoPersonaBL.cs" />
+    <Compile Include="ClsManejadoraPersonaBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

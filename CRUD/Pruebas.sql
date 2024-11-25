@@ -1,0 +1,2 @@
+﻿DELETE FROM Personas WHERE ID=32
+SELECT * FROM Personas

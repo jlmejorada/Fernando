@@ -10,22 +10,23 @@ namespace ENT
     {
 
         #region ATRIBUTOS Y PROPIEDADES
-        public int Id { get; set; }
-        public string Nombre { get; set; }
-        public string Apellidos { get; set; }
-        public string Telefono { get; set; }
-        public string Direccion { get; set; }
-        public string Foto { get; set; }
-        public DateTime FechaNacimiento { get; set; }
-        public int IDDepartamento { get; set; }
+        public int Id { get; set; } = 0;
+        public string Nombre { get; set; } = "";
+        public string Apellidos { get; set; } = "";
+        public string Telefono { get; set; } = "";
+        public string Direccion { get; set; } = "";
+        public string Foto { get; set; } = "";
+        public DateTime FechaNacimiento { get; set; } = DateTime.Now;
+        public int IDDepartamento { get; set; } = 0;
         #endregion
 
         #region CONSTRUCTORES
         public ClsPersona()
         {
         }
-        public ClsPersona(string nombre, string apellidos, string telefono, string direccion, string foto, DateTime fechaNacimiento, int idDepartamento)
+        public ClsPersona(int id, string nombre, string apellidos, string telefono, string direccion, string foto, DateTime fechaNacimiento, int idDepartamento)
         {
+            Id = id;
             Nombre = nombre;
             Apellidos = apellidos;
             Telefono = telefono;
@@ -34,6 +35,19 @@ namespace ENT
             FechaNacimiento = fechaNacimiento;
             IDDepartamento = idDepartamento;
         }
+
+        public ClsPersona(ClsPersona persona)
+        {
+            Id = persona.Id;
+            Nombre = persona.Nombre;
+            Apellidos = persona.Apellidos;
+            Telefono = persona.Telefono;
+            Direccion = persona.Direccion;
+            Foto = persona.Foto;
+            FechaNacimiento = persona.FechaNacimiento;
+            IDDepartamento = persona.IDDepartamento;
+        }
+
         #endregion
 
     }
