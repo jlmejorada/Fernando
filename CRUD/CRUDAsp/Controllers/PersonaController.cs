@@ -6,7 +6,7 @@ using DAL;
 
 namespace CRUDAsp.Controllers
 {
-    public class PersonaControler : Controller
+    public class PersonaController : Controller
     {
         // GET: PersonaControler
         public ActionResult Index()
@@ -64,7 +64,7 @@ namespace CRUDAsp.Controllers
         }
 
         // GET: PersonaControler/Edit/5
-        public ActionResult Edit()
+        public ActionResult Edit(int id)
         {
             ClsPersona persona = new ClsPersona();
             //TODO TRYCATCH
@@ -75,7 +75,7 @@ namespace CRUDAsp.Controllers
         // POST: PersonaControler/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(ClsPersona persona)
         {
             try
             {
@@ -97,9 +97,10 @@ namespace CRUDAsp.Controllers
         }
 
         // POST: PersonaControler/Delete/5
+        [ActionName("Delete")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeletePost(int id)
         {
             try
             {

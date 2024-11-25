@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDAsp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a5e04c78bd42bdfc88bd6ea0884221d26ac4fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45b9c01d843c509a1ac9bee41d91383fb90f794a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDAsp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDAsp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

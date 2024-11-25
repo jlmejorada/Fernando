@@ -8,10 +8,10 @@ using Microsoft.Data.SqlClient;
 
 namespace DAL
 {
-    public class ClsListadoDAL
+    public class ClsListadoPersonaDAL
     {
         /// <summary>
-        /// Crea una lista de Personas y se conecta a la Base de Datos para devolvela llena
+        /// Se conecta a la Base de Datos para devolver una lista de personas completa
         /// Pre: nothing
         /// Post: La lista estará llena si hay personas en nuestra BDD o vacia si no las hay
         /// </summary>
@@ -81,6 +81,8 @@ namespace DAL
             }
             return listadoPersonas;
         }
+
+
     }
 
 }

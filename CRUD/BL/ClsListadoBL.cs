@@ -20,7 +20,7 @@ namespace BL
         /// <returns> List<ClsPersona> Lista </returns>
         public static List<ClsPersona> ListaPersonasBL()
         {
-            List<ClsPersona> lista = ClsListadoDAL.ListaPersonasDAL();
+            List<ClsPersona> lista = ClsListadoPersonaDAL.ListaPersonasDAL();
             return lista;
         }
     }
