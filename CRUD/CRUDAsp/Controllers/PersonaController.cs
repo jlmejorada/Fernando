@@ -13,23 +13,17 @@ namespace CRUDAsp.Controllers
         // GET: PersonaControler
         public ActionResult Index()
         {
-            List<ClsPersonaNombreDepartamento> listaPersonaDept = new List<ClsPersonaNombreDepartamento>();
+            List<ClsPersonaNombreDepartamento> lista;
+            ClsListadoPersonasNombreDepartamentoVM vm = new ClsListadoPersonasNombreDepartamentoVM();
             try
             {
-                List<ClsPersona> personas = ClsListadoPersonaBL.ListaPersonasBL();
-
-                List<ClsDepartamento> departamentos = ClsListadoDepartamentoBL.ListaDepartamentosBL();
-
-                foreach (ClsPersona persona in personas)
-                {
-                    listaPersonaDept.Add(new ClsPersonaNombreDepartamento(persona, departamentos));
-                }
+                lista = vm.Lista;
             }
             catch (Exception ex)
             {
                 return View("Error");
             }
-            return View(listaPersonaDept);
+            return View(lista);
         }
 
         // GET: PersonaControler/Details/5
@@ -64,19 +58,16 @@ namespace CRUDAsp.Controllers
             {
                 return View("Error");
             }
-            return View("Create", vm);
+            return View(vm);
         }
         // POST: PersonaControler/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(ClsPersona persona)
         {
-            bool seCreo = false;
             try
             {
-                seCreo = ClsManejadoraPersonaBL.CreaPersonaBL(persona);
-                if (seCreo) { ViewBag.Mensaje = "Persona guardada correctamente"; }
-                else { ViewBag.Mensaje = "No se ha podido guardar la persona"; }
+                ClsManejadoraPersonaBL.CreaPersonaBL(persona);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -88,10 +79,18 @@ namespace CRUDAsp.Controllers
         // GET: PersonaControler/Edit/5
         public ActionResult Edit(int id)
         {
-            ClsPersona persona = new ClsPersona();
-            //TODO TRYCATCH
-            //persona = ClsManejadoraBL.EditaPersonaBL
-            return View("Edit", persona);
+            ClsPersona persona;
+            ClsPersonaConDepartamentosVM vm;
+            try
+            {
+                persona = ClsManejadoraPersonaBL.BuscaPersonaBL(id);
+                vm = new ClsPersonaConDepartamentosVM(persona);
+            }
+            catch (Exception e)
+            {
+                return View("Error");
+            }
+            return View("Edit", vm);
         }
 
         // POST: PersonaControler/Edit/5
@@ -99,23 +98,38 @@ namespace CRUDAsp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(ClsPersona persona)
         {
+            bool seCreo = false;
             try
             {
+                ClsManejadoraPersonaBL.EditaPersonaBL(persona);
+                ViewBag.Mensaje = "Persona guardada correctamente";
+
                 return RedirectToAction(nameof(Index));
             }
             catch
             {
-                return View();
+                ViewBag.Mensaje = "No se ha podido guardar la persona";
+                return RedirectToAction(nameof(Index));
             }
         }
 
         // GET: PersonaControler/Delete/5
         public ActionResult Delete(int id)
         {
-            ClsPersona persona = new ClsPersona();
-            //TODO TRYCATCH
-            //persona = listadoPersonas.BuscaPersona(id);
-            return View("Delete", persona);
+            ClsPersona persona;
+            ClsPersonaNombreDepartamento personaConDep;
+            List<ClsDepartamento> lista;
+            try
+            {
+                lista = ClsListadoDepartamentoBL.ListaDepartamentosBL();
+                persona = ClsManejadoraPersonaBL.BuscaPersonaBL(id);
+                personaConDep = new ClsPersonaNombreDepartamento(persona, lista);
+            }
+            catch
+            {
+                return View("Error");
+            }
+            return View("Delete", personaConDep);
         }
 
         // POST: PersonaControler/Delete/5
@@ -124,8 +138,10 @@ namespace CRUDAsp.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeletePost(int id)
         {
+            bool seBorra = false;
             try
             {
+                seBorra = ClsManejadoraPersonaBL.BorraPersonaBL(id);
                 return RedirectToAction(nameof(Index));
             }
             catch

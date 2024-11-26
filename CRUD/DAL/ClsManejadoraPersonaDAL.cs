@@ -202,14 +202,15 @@ namespace DAL
             {
                 miConexion.Open();
 
+                miComando.Parameters.AddWithValue("@id", persona.Id);
                 miComando.Parameters.AddWithValue("@nombre", persona.Nombre);
                 miComando.Parameters.AddWithValue("@apellidos", persona.Apellidos);
                 miComando.Parameters.AddWithValue("@tel", persona.Telefono);
-                miComando.Parameters.AddWithValue("@dir", persona.Foto);
+                miComando.Parameters.AddWithValue("@dir", persona.Direccion);
+                miComando.Parameters.AddWithValue("@foto", persona.Foto);
                 miComando.Parameters.AddWithValue("@fecha", persona.FechaNacimiento);
                 miComando.Parameters.AddWithValue("@dep", persona.IDDepartamento);
-                miComando.CommandText = "UPDATE INTO personas (Nombre, Apellidos, Telefono, Foto, FechaNacimiento,IDDepartamento) " +
-                    "VALUES (@nombre, @apellidos, @tel, @dir, @fecha, @dep)";
+                miComando.CommandText = "UPDATE personas SET Nombre = @nombre, Apellidos = @apellidos, Telefono = @tel, Foto = @foto, FechaNacimiento = @fecha, Direccion = @dir, idDepartamento = @dep WHERE Id = @id";
 
                 miComando.Connection = miConexion;
 

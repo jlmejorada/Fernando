@@ -181,9 +181,10 @@ namespace DAL
             {
                 miConexion.Open();
 
+                miComando.Parameters.AddWithValue("@id", departamento.Id);
                 miComando.Parameters.AddWithValue("@nombre", departamento.Nombre);
-                miComando.CommandText = "UPDATE INTO departamentos (Nombre) " +
-                    "VALUES (@nombre)";
+                miComando.CommandText = miComando.CommandText = "UPDATE departamentos SET Nombre = @nombre" +
+                    " WHERE Id = @id";
 
                 miComando.Connection = miConexion;
 
