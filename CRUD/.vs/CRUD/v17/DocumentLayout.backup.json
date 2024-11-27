@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\vm\\clslistadopersonasnombredepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\vm\\clslistadopersonasnombredepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\views\\listapersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\views\\listapersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\vm\\clslistadopersonasnombredepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\vm\\clslistadopersonasnombredepartamentovm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 65,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,26 +30,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ListaPersonaView.xaml",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\ListaPersonaView.xaml",
               "RelativeDocumentMoniker": "CRUDMaui\\Views\\ListaPersonaView.xaml",
               "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\ListaPersonaView.xaml",
               "RelativeToolTip": "CRUDMaui\\Views\\ListaPersonaView.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-27T11:45:02.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClsListadoPersonasNombreDepartamentoVM.cs",
               "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasNombreDepartamentoVM.cs",
               "RelativeDocumentMoniker": "CRUDMaui\\VM\\ClsListadoPersonasNombreDepartamentoVM.cs",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasNombreDepartamentoVM.cs",
-              "RelativeToolTip": "CRUDMaui\\VM\\ClsListadoPersonasNombreDepartamentoVM.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBMAAAAsAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasNombreDepartamentoVM.cs*",
+              "RelativeToolTip": "CRUDMaui\\VM\\ClsListadoPersonasNombreDepartamentoVM.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:43:47.98Z",
               "EditorCaption": ""

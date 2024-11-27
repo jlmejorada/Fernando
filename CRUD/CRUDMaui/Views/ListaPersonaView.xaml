@@ -24,9 +24,8 @@
         <Button Grid.Row="0" Grid.Column="2" Text="Eliminar" MaximumWidthRequest="130"/>
 
         <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ItemsSource="{Binding Lista}" SelectedItem="{Binding personaSeleccionada}" >
-            <ListView.Header>
-                <Label Text="{Binding personaSeleccionada.Nombre}"/>
-            </ListView.Header>
+            <Lis
+
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
