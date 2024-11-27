@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:CRUDMaui.VM"
+             x:Class="CRUDMaui.Views.ListaPersonaView"
+             Title="ListaPersonaView">
+
+    <ContentPage.BindingContext>
+        <vmodel:ClsListadoPersonasNombreDepartamentoVM />
+    </ContentPage.BindingContext>
+
+    <Grid Padding="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Text="Detalles" MaximumWidthRequest="130"/>
+        <Button Grid.Row="0" Grid.Column="1" Text="Editar" MaximumWidthRequest="130"/>
+        <Button Grid.Row="0" Grid.Column="2" Text="Eliminar" MaximumWidthRequest="130"/>
+
+        <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ItemsSource="{Binding Lista}" SelectedItem="{Binding personaSeleccionada}" >
+            <ListView.Header>
+                <Label Text="{Binding personaSeleccionada.Nombre}"/>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image  Margin="5"
+                                        Grid.RowSpan="5"
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        Source="{Binding Foto}"
+                                        Aspect="AspectFill"
+                                        MaximumHeightRequest="100"
+                                        MaximumWidthRequest="100" />
+                            <Label Grid.Row="0"
+                                        Grid.Column="1"
+                                        Text="{Binding Nombre}"/>
+                            <Label Grid.Row="0"
+                                        Grid.Column="2"
+                                        Text="{Binding Apellidos}"/>
+                            <Label Grid.Row="1"
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="2"
+                                        Text="{Binding Telefono}"/>
+                            <Label Grid.Row="2"
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="2"
+                                        Text="{Binding Direccion}"/>
+                            <Label Grid.Row="3"
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="2"
+                                        Text="{Binding FechaNacimiento}"/>
+                            <Label Grid.Row="4"
+                                        Grid.Column="1"
+                                        Grid.ColumnSpan="2"
+                                        Text="{Binding NombreDepartamento}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="1" Grid.ColumnSpan="3" CornerRadius="100"
+                MaximumWidthRequest="70" MaximumHeightRequest="70"
+                HorizontalOptions="End"  VerticalOptions="End" ImageSource="add.png" />
+    </Grid>
+</ContentPage>

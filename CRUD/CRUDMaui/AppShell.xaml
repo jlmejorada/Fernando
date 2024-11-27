@@ -4,12 +4,17 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CRUDMaui"
-    Shell.FlyoutBehavior="Disabled"
+    xmlns:views="clr-namespace:CRUDMaui.Views"
+    Shell.FlyoutBehavior="Flyout"
     Title="CRUDMaui">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="Views.MainPage" />
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Persona"
+                      Icon="persona.png"
+                      ContentTemplate="{DataTemplate views:ListaPersonaView}" />
+        <ShellContent Title="Departamento"
+                      Icon="departamento.png"
+                      ContentTemplate="{DataTemplate views:ListaDepartamentoView}" />
+    </FlyoutItem>
 
 </Shell>
