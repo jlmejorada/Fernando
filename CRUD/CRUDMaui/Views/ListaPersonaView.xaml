@@ -4,7 +4,7 @@
              xmlns:vmodel="clr-namespace:CRUDMaui.VM"
              x:Class="CRUDMaui.Views.ListaPersonaView"
              Title="ListaPersonaView">
-
+                 
     <ContentPage.BindingContext>
         <vmodel:ClsListadoPersonasNombreDepartamentoVM />
     </ContentPage.BindingContext>
@@ -19,13 +19,10 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button Grid.Row="0" Grid.Column="0" Text="Detalles" MaximumWidthRequest="130"/>
-        <Button Grid.Row="0" Grid.Column="1" Text="Editar" MaximumWidthRequest="130"/>
-        <Button Grid.Row="0" Grid.Column="2" Text="Eliminar" MaximumWidthRequest="130"/>
-
-        <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ItemsSource="{Binding Lista}" SelectedItem="{Binding personaSeleccionada}" >
-            <Lis
-
+        <Button Command="{Binding BtnDetallesCmd}" Grid.Row="0" Grid.Column="0" Text="Detalles" MaximumWidthRequest="130"/>
+        <Button Command="{Binding BtnEditarCmd}" Grid.Row="0" Grid.Column="1" Text="Editar" MaximumWidthRequest="130"/>
+        <Button Command="{Binding BtnBorrarCmd}" Grid.Row="0" Grid.Column="2" Text="Eliminar" MaximumWidthRequest="130"/>
+        <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" ItemsSource="{Binding Lista}" SelectedItem="{Binding PersonaSeleccionada}" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -33,46 +30,16 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
-
-                            <Image  Margin="5"
-                                        Grid.RowSpan="5"
-                                        Grid.Row="0"
+                            <Label Grid.Row="0"
                                         Grid.Column="0"
-                                        Source="{Binding Foto}"
-                                        Aspect="AspectFill"
-                                        MaximumHeightRequest="100"
-                                        MaximumWidthRequest="100" />
-                            <Label Grid.Row="0"
-                                        Grid.Column="1"
                                         Text="{Binding Nombre}"/>
-                            <Label Grid.Row="0"
-                                        Grid.Column="2"
-                                        Text="{Binding Apellidos}"/>
                             <Label Grid.Row="1"
-                                        Grid.Column="1"
-                                        Grid.ColumnSpan="2"
-                                        Text="{Binding Telefono}"/>
-                            <Label Grid.Row="2"
-                                        Grid.Column="1"
-                                        Grid.ColumnSpan="2"
-                                        Text="{Binding Direccion}"/>
-                            <Label Grid.Row="3"
-                                        Grid.Column="1"
-                                        Grid.ColumnSpan="2"
-                                        Text="{Binding FechaNacimiento}"/>
-                            <Label Grid.Row="4"
-                                        Grid.Column="1"
-                                        Grid.ColumnSpan="2"
-                                        Text="{Binding NombreDepartamento}"/>
+                                        Grid.Column="0"
+                                        Text="{Binding Apellidos}"/>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

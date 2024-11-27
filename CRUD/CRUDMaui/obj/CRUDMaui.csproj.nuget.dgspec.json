@@ -1,22 +1,22 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj": {}
+    "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj": {
+    "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj",
+        "projectUniqueName": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj",
         "projectName": "BL",
-        "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj",
+        "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
               }
             }
           }
@@ -26,21 +26,21 @@
         "net472": {}
       }
     },
-    "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj": {
+    "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj",
+        "projectUniqueName": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj",
         "projectName": "CRUDMaui",
-        "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj",
-        "packagesPath": "C:\\Users\\jlmejorada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\obj\\",
+        "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\CRUDMaui.csproj",
+        "packagesPath": "C:\\Users\\mamej\\.nuget\\packages\\",
+        "outputPath": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jlmejorada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mamej\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,44 +59,44 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj"
               },
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
               }
             }
           },
-          "net8.0-ios18.0": {
+          "net8.0-ios17.5": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj"
               },
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
               }
             }
           },
-          "net8.0-maccatalyst18.0": {
+          "net8.0-maccatalyst17.5": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj"
               },
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj"
               },
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
               }
             }
           }
@@ -135,7 +135,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -158,9 +158,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-ios18.0": {
+        "net8.0-ios17.5": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
@@ -182,7 +182,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -205,9 +205,9 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         },
-        "net8.0-maccatalyst18.0": {
+        "net8.0-maccatalyst17.5": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
@@ -229,7 +229,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -253,7 +253,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -289,7 +289,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.53, 10.0.19041.53]"
+              "version": "[10.0.19041.34, 10.0.19041.34]"
             }
           ],
           "frameworkReferences": {
@@ -300,7 +300,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -327,16 +327,16 @@
         }
       }
     },
-    "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj": {
+    "D:\\Repositorio\\Fernando\\CRUD\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Repositorio\\Fernando\\CRUD\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\DAL\\DAL.csproj",
+        "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+              "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
               }
             }
           }
@@ -346,11 +346,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+    "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj",
+        "projectUniqueName": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj",
         "projectName": "ENT",
-        "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj",
+        "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}

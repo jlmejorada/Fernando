@@ -75,6 +75,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\DetallesPersonaView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\ListaDepartamentoView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

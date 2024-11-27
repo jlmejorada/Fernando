@@ -5,16 +5,20 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CRUDMaui"
     xmlns:views="clr-namespace:CRUDMaui.Views"
-    Shell.FlyoutBehavior="Flyout"
+    Shell.FlyoutBehavior="Disabled"
     Title="CRUDMaui">
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Persona"
                       Icon="persona.png"
+                      Route="persona"
                       ContentTemplate="{DataTemplate views:ListaPersonaView}" />
         <ShellContent Title="Departamento"
                       Icon="departamento.png"
+                      Route="persona"
                       ContentTemplate="{DataTemplate views:ListaDepartamentoView}" />
     </FlyoutItem>
+    <ShellContent Title="Detalles Persona" Route="detallesPersona"
+              ContentTemplate="{DataTemplate views:DetallesPersonaView}" />
 
 </Shell>
