@@ -8,66 +8,59 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUDMaui
-build_property.ProjectDir = C:\Users\jlmejorada\Desktop\Repositorios\Fernando\CRUD\CRUDMaui\
+build_property.ProjectDir = D:\Repositorio\Fernando\CRUD\CRUDMaui\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTAotOptimizerEnabled = true
-build_property.CsWinRTAotExportsEnabled = 
-build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
-build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
-build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
-build_property.CsWinRTMergeReferencedActivationFactories = 
-build_property.CsWinRTAotWarningLevel = 
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/App.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/AppShell.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Resources/Styles/Colors.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Resources/Styles/Styles.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Views/AgregarPersonaView.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Views/AgregarPersonaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.AgregarPersonaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AgregarPersonaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AgregarPersonaView.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Views/DetallesPersonaView.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Views/DetallesPersonaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.DetallesPersonaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\DetallesPersonaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DetallesPersonaView.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Views/EditarPersonaView.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Views/EditarPersonaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.EditarPersonaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EditarPersonaView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EditarPersonaView.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Views/ListaDepartamentoView.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Views/ListaDepartamentoView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.ListaDepartamentoView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListaDepartamentoView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ListaDepartamentoView.xaml
 
-[C:/Users/jlmejorada/Desktop/Repositorios/Fernando/CRUD/CRUDMaui/Views/ListaPersonaView.xaml]
+[D:/Repositorio/Fernando/CRUD/CRUDMaui/Views/ListaPersonaView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = CRUDMaui.Views.ListaPersonaView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ListaPersonaView.xaml
