@@ -9,10 +9,6 @@ namespace DAL
 {
     public class ListaCandidatosDAL
     {
-        /// <summary>
-        /// Lista estatica de nuestros candidatos
-        /// </summary>
-        static List<ClsCandidato> candidatos = new List<ClsCandidato>();
 
         /// <summary>
         /// Si tuvieramos una bdd, esta función extraeria una lista de candidatos de esta
@@ -20,8 +16,7 @@ namespace DAL
         /// <returns>Lista de candidatos</returns>
         public static List<ClsCandidato> extraeCandidatosDAL()
         {
-            return candidatos = new List<ClsCandidato>
-            {
+            List<ClsCandidato> candidatos = new List<ClsCandidato>(){
                 new ClsCandidato(1, "Vito", "Gordon", "Pizza Street, 123", "USA", "54567686", new DateTime(1961,11,10), 2500),
                 new ClsCandidato(2, "Christopher", "Moltisani", "St Monti Av", "USA", "568765466", new DateTime(2000,03,22), 1500),
                 new ClsCandidato(3, "Braulia", "Galiani", "Brooklin Av", "USA", "5679321", new DateTime(1998,12,09), 1500),
@@ -31,7 +26,7 @@ namespace DAL
                 new ClsCandidato(7, "Luigi", "Peperoni", "Piaza Roma, 3", "Italia", "12356565", new DateTime(1999,04,05), 16000),
                 new ClsCandidato(8, "Silvio", "Dante", "Town Street, 56", "USA", "87878787", new DateTime(1966/01/30), 2000),
             };
-
+            return candidatos;
         }
     }
 }

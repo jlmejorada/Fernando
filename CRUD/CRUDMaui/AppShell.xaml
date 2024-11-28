@@ -11,14 +11,16 @@
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Persona"
                       Icon="persona.png"
-                      Route="persona"
+                      Route="listaPersona"
                       ContentTemplate="{DataTemplate views:ListaPersonaView}" />
         <ShellContent Title="Departamento"
                       Icon="departamento.png"
-                      Route="persona"
+                      Route="listaDepartamento"
                       ContentTemplate="{DataTemplate views:ListaDepartamentoView}" />
     </FlyoutItem>
     <ShellContent Title="Detalles Persona" Route="detallesPersona"
               ContentTemplate="{DataTemplate views:DetallesPersonaView}" />
+    <ShellContent Title="Edita Persona" Route="editaPersona"
+          ContentTemplate="{DataTemplate views:EditarPersonaView}" />
 
 </Shell>

@@ -12,7 +12,6 @@ using CRUDMaui.Views;
 
 namespace CRUDMaui.VM
 {
-    [QueryProperty(nameof(ClsPersonaNombreDepartamento), "persona")]
     public class ClsListadoPersonasNombreDepartamentoVM : clsVMBase
     {
         #region ATRIBUTO
@@ -21,6 +20,7 @@ namespace CRUDMaui.VM
         private DelegateCommand btnDetallesCmd;
         private DelegateCommand btnEditarCmd;
         private DelegateCommand btnBorrarCmd;
+        private DelegateCommand btnAnadirCmd;
         #endregion
 
         #region PROPIEDAD
@@ -35,12 +35,13 @@ namespace CRUDMaui.VM
 
                 btnDetallesCmd.RaiseCanExecuteChanged();
                 btnEditarCmd.RaiseCanExecuteChanged();
-                BtnBorrarCmd.RaiseCanExecuteChanged();
+                btnBorrarCmd.RaiseCanExecuteChanged();
             }
         }
         public DelegateCommand BtnDetallesCmd { get { return btnDetallesCmd; } }
         public DelegateCommand BtnEditarCmd { get { return btnEditarCmd; } }
         public DelegateCommand BtnBorrarCmd { get { return btnBorrarCmd; } }
+        public DelegateCommand BtnAnadirCmd { get { return btnAnadirCmd; } }
         #endregion
 
         #region CONSTRUCTOR
@@ -63,6 +64,7 @@ namespace CRUDMaui.VM
             btnDetallesCmd = new DelegateCommand(btnDetallesCmdExecute, btnCmdCanExecute);
             btnEditarCmd = new DelegateCommand(btnEditaCmdExecute, btnCmdCanExecute);
             btnBorrarCmd = new DelegateCommand(btnBorraCmdExecute, btnCmdCanExecute);
+            btnAnadirCmd = new DelegateCommand(btnAnadeCmdExecute);
         }
         #endregion
 
@@ -83,20 +85,41 @@ namespace CRUDMaui.VM
         }
         private async void btnDetallesCmdExecute()
         {
+            ClsPersonaNombreDepartamento persona = personaSeleccionada;
             var queryParams = new Dictionary<string, Object>
             {
-                 {"persona", personaSeleccionada }
+                 {"persona",  persona}
             };
 
             await Shell.Current.GoToAsync("///detallesPersona", queryParams);
         }
-        private void btnEditaCmdExecute()
+        private async void btnEditaCmdExecute()
+        {
+            ClsPersonaNombreDepartamento persona = personaSeleccionada;
+            var queryParams = new Dictionary<string, Object>
+            {
+                 {"persona",  persona}
+            };
+
+            await Shell.Current.GoToAsync("///editaPersona", queryParams);
+        }
+        private void btnAnadeCmdExecute()
         {
 
         }
         private void btnBorraCmdExecute()
         {
-
+            ClsPersonaNombreDepartamento persona = personaSeleccionada;
+            try
+            {
+                ClsManejadoraPersonaBL.BorraPersonaBL(persona.Id);
+                lista.Remove(persona);
+                NotifyPropertyChanged("Lista");
+            }
+            catch 
+            { 
+               
+            }
         }
         #endregion
     }

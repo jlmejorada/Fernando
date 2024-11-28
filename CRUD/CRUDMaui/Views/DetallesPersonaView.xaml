@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:model="clr-namespace:CRUDMaui.Models"
+             xmlns:model="clr-namespace:CRUDMaui.VM"
              x:Class="CRUDMaui.Views.DetallesPersonaView"
              Title="DetallesPersonaView">
 
     <ContentPage.BindingContext>
-        <model:ClsPersonaNombreDepartamento/>
+        <model:ClsDetallesPersonaVM/>
     </ContentPage.BindingContext>
 
     <Grid Padding="10">
@@ -16,45 +16,49 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
+        <Button Command="{Binding BtnVolverCmd}" Grid.Row="0" Grid.Column="0" Text="Volver" MaximumWidthRequest="130"/>
         <Image  Margin="5"
                 Grid.RowSpan="5"
-                Grid.Row="0"
+                Grid.Row="1"
                 Grid.Column="0"
-                Source="{Binding Foto}"
+                Source="{Binding Persona.Foto}"
                 Aspect="AspectFill"
                 MinimumHeightRequest="80"
                 MinimumWidthRequest="80" 
                 MaximumHeightRequest="100"
                 MaximumWidthRequest="100" />
-        <Label Grid.Row="0"
-                Grid.Column="1"
-                Text="{Binding Nombre}"/>
-        <Label Grid.Row="0"
-                Grid.Column="2"
-                Text="{Binding Apellidos}"/>
         <Label Grid.Row="1"
                 Grid.Column="1"
-                Grid.ColumnSpan="2"
-                Text="{Binding Telefono}"/>
+                Margin="5"
+                Text="{Binding Persona.Nombre}"/>
+        <Label Grid.Row="1"
+                Grid.Column="2"
+                Margin="5"
+                Text="{Binding Persona.Apellidos}"/>
         <Label Grid.Row="2"
                 Grid.Column="1"
                 Grid.ColumnSpan="2"
-                Text="{Binding Direccion}"/>
+                Text="{Binding Persona.Telefono}"/>
         <Label Grid.Row="3"
                 Grid.Column="1"
                 Grid.ColumnSpan="2"
-                Text="{Binding FechaNacimiento}"/>
+                Text="{Binding Persona.Direccion}"/>
         <Label Grid.Row="4"
                 Grid.Column="1"
                 Grid.ColumnSpan="2"
-                Text="{Binding NombreDepartamento}"/>
+                Text="{Binding Persona.FechaNacimiento}"/>
+        <Label Grid.Row="5"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Text="{Binding Persona.NombreDepartamento}"/>
     </Grid>
 
 </ContentPage>
