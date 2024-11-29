@@ -3,53 +3,84 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vmodel="clr-namespace:UIMaui.VM"
              x:Class="UIMaui.Views.DetallesCandidatosViews"
-             Title="DetallesCandidatosViews">
-
+             Title="Detalles del Candidato"
+             BackgroundColor="White">
 
     <ContentPage.BindingContext>
         <vmodel:DetallesCandidatosVM />
     </ContentPage.BindingContext>
 
-    <Grid Padding="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Button Command="{Binding BtnVolverCmd}" 
+                Text="Volver" 
+                WidthRequest="150"
+                BackgroundColor="#007BFF"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="Start" />
 
-        <Button Command="{Binding BtnVolverCmd}" Grid.Row="0" Grid.Column="0" Text="Volver" MaximumWidthRequest="130"/>
-        <Label Grid.Row="1"
-            Grid.Column="1"
-            Margin="5"
-            Text="{Binding Candidato.Nombre}"/>
-        <Label Grid.Row="1"
-            Grid.Column="2"
-            Margin="5"
-            Text="{Binding Candidato.Apellidos}"/>
-        <Label Grid.Row="2"
-            Grid.Column="1"
-            Grid.ColumnSpan="2"
-            Text="{Binding Candidato.Telefono}"/>
-        <Label Grid.Row="3"
-            Grid.Column="1"
-            Grid.ColumnSpan="2"
-            Text="{Binding Candidato.Direccion}"/>
-        <Label Grid.Row="4"
-            Grid.Column="1"
-            Grid.ColumnSpan="2"
-            Text="{Binding Candidato.Edad}"/>
-        <Label Grid.Row="5"
-            Grid.Column="1"
-            Grid.ColumnSpan="2"
-            Text="{Binding Candidato.PrecioMedio}"/>   
-    </Grid>
-    
+        <Border Stroke="#D3D3D3" StrokeThickness="1" Padding="15">
+            <VerticalStackLayout Spacing="10">
+                <Label Text="Detalles del Candidato" 
+                       FontSize="20" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center"
+                       TextColor="#333" />
+
+                
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Nombre:" 
+                           FontAttributes="Bold" 
+                           TextColor="#555" />
+                    <Label Text="{Binding Candidato.Nombre}" 
+                           TextColor="#333" />
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Apellidos:" 
+                           FontAttributes="Bold" 
+                           TextColor="#555" />
+                    <Label Text="{Binding Candidato.Apellidos}" 
+                           TextColor="#333" />
+                </HorizontalStackLayout>
+
+                
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Teléfono:" 
+                           FontAttributes="Bold" 
+                           TextColor="#555" />
+                    <Label Text="{Binding Candidato.Telefono}" 
+                           TextColor="#333" />
+                </HorizontalStackLayout>
+
+                
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Dirección:" 
+                           FontAttributes="Bold" 
+                           TextColor="#555" />
+                    <Label Text="{Binding Candidato.Direccion}" 
+                           TextColor="#333" />
+                </HorizontalStackLayout>
+
+                
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Edad:" 
+                           FontAttributes="Bold" 
+                           TextColor="#555" />
+                    <Label Text="{Binding Candidato.Edad}" 
+                           TextColor="#333" />
+                </HorizontalStackLayout>
+
+                
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text="Precio Medio:" 
+                           FontAttributes="Bold" 
+                           TextColor="#555" />
+                    <Label Text="{Binding Candidato.PrecioMedio}" 
+                           TextColor="#333" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Border>
+    </VerticalStackLayout>
+
 </ContentPage>
