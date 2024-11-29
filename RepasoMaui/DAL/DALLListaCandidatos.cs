@@ -25,7 +25,14 @@ namespace DAL
                 new ClsCandidato(5, "Estas", "Caputo", "Via Bonna Av", "Italia", "4445532", new DateTime(1973, 03, 22), 20000),
                 new ClsCandidato(6, "Toco", "L'Acordeone", "Via Musica Av", "Italia", "4445532", new DateTime(1984, 03, 22), 14000),
                 new ClsCandidato(7, "Luigi", "Peperoni", "Piaza Roma Av", "Italia", "4445532", new DateTime(1999, 03, 22), 16000),
-                new ClsCandidato(8, "Silvio", "Dante", "Town Street Av", "USA", "4445532", new DateTime(1966, 03, 22), 2000)
+                new ClsCandidato(8, "Silvio", "Dante", "Town Street Av", "USA", "4445532", new DateTime(1966, 03, 22), 2000),
+                new ClsCandidato(9, "Christopher", "Moltisanti", "St Monti Av", "USA", "4445532", new DateTime(2000, 03, 22), 1500),
+                new ClsCandidato(10, "Braulia", "Galliani", "Brooklin", "USA", "5553421", new DateTime(1998, 12, 09), 1500),
+                new ClsCandidato(11, "Paulie", "Gualtieri", "Soprano St", "USA", "65745532", new DateTime(1968, 07, 24), 2000),
+                new ClsCandidato(12, "Estas", "Caputo", "Via Bonna Av", "Italia", "4445532", new DateTime(1973, 03, 22), 20000),
+                new ClsCandidato(13, "Toco", "L'Acordeone", "Via Musica Av", "Italia", "4445532", new DateTime(1984, 03, 22), 14000),
+                new ClsCandidato(14, "Luigi", "Peperoni", "Piaza Roma Av", "Italia", "4445532", new DateTime(1999, 03, 22), 16000),
+                new ClsCandidato(15, "Silvio", "Dante", "Town Street Av", "USA", "4445532", new DateTime(1966, 03, 22), 2000)
             };
             return lista;
         }

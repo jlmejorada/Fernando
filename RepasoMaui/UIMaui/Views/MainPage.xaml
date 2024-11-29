@@ -3,62 +3,85 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vmodel="clr-namespace:UIMaui.VM"
              x:Class="UIMaui.Views.MainPage"
-             Title="Listado de Mafia y cosa">
+             Title="Listado de Mafia y Cosa"
+             BackgroundColor="White">
 
     <ContentPage.BindingContext>
         <vmodel:MainVM />
     </ContentPage.BindingContext>
 
-    <Grid Padding="10">
+    <Grid Padding="15" RowSpacing="20">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Picker Title="Misiones"
-                ItemsSource="{Binding ListaMisiones}"
-                ItemDisplayBinding="{Binding Nombre}"
-                SelectedItem="{Binding MisionSelec, Mode=TwoWay}"  
-                Grid.Row="0"
+        <Picker Grid.Row="0" Grid.Column="0"
+                    Title="Misiones"
+                    ItemsSource="{Binding ListaMisiones}"
+                    ItemDisplayBinding="{Binding Nombre}"
+                    SelectedItem="{Binding MisionSelec, Mode=TwoWay}"  
+                    HorizontalOptions="StartAndExpand"/>
+        <Button Grid.Row="0" Grid.Column="1"
+                Command="{Binding BtnVerCanCmd}" 
+                Text="Ver Candidatos" 
+                MaximumWidthRequest="150"
+                MaximumHeightRequest="50"
+                BackgroundColor="#007BFF"
+                TextColor="White"
+                CornerRadius="10" 
+                HorizontalOptions="End"/>
+        <ListView Grid.Row="1"
                 Grid.Column="0"
-                MaximumWidthRequest="300"
-                MinimumWidthRequest="100"
-                Grid.ColumnSpan="0" Margin="5"/>
-        <Button Command="{Binding BtnVerCanCmd}" Grid.Row="0" Grid.Column="2" Text="Ver Candidatos" MaximumWidthRequest="130"/>
-        <ListView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding ListaCandidatos}" SelectedItem="{Binding CanSelec}">
+                Grid.ColumnSpan="2"
+                ItemsSource="{Binding ListaCandidatos}" 
+                SelectedItem="{Binding CanSelec}" 
+                BackgroundColor="#F8F9FA"
+                HasUnevenRows="True"
+                VerticalOptions="FillAndExpand">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="10">
+                        <Grid Padding="10" RowSpacing="5">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="Auto" />
                             </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
                             <Label Grid.Row="0"
-                                Grid.Column="0"
-                                Text="{Binding Nombre}"/>
+                                Text="{Binding Nombre}"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                TextColor="#333" />
                             <Label Grid.Row="1"
-                                Grid.Column="0"
-                                Text="{Binding Apellidos}"/>
+                                Text="{Binding Apellidos}"
+                                FontSize="14"
+                                TextColor="#555" />
                             <Label Grid.Row="2"
-                                    Grid.Column="0"
-                                    Text="{Binding Edad}"/>
+                                Text="{Binding Edad}"
+                                FontSize="12"
+                                TextColor="#777" />
                         </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Command="{Binding BtnDetallesCmd}" Grid.Row="3" Grid.Column="2" Text="Detalles Candidatos" MaximumWidthRequest="130"/>
+
+        <Button Command="{Binding BtnDetallesCmd}" 
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Text="Detalles Candidatos" 
+                WidthRequest="200"
+                BackgroundColor="#28A745"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="End" />
     </Grid>
 
 </ContentPage>
+
