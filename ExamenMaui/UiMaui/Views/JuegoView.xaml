@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vmodel="clr-namespace:UiMaui.VM"
+             x:Class="UiMaui.Views.JuegoView"
+             Title="¿Quien es tu Candidato?">
+
+    <ContentPage.BindingContext>
+        <vmodel:JuegoVM />
+    </ContentPage.BindingContext>
+
+    <Grid Padding="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Label  Grid.Row="0" Grid.Column="0" 
+                Text="ACIERTOS"/>
+        <Label  Grid.Row="0" Grid.Column="3" 
+                Text="FALLOS"/>
+        <Label  Grid.Row="1" Grid.Column="0" 
+                Text="{Binding Aciertos}"/>
+        <Label  Grid.Row="1" Grid.Column="3" 
+                Text="{Binding Errores}"/>
+        <Image  Margin="15"
+                Grid.RowSpan="2"
+                Grid.Row="2"
+                Grid.Column="2"
+                Source="{Binding Foto}"
+                Aspect="AspectFill"
+                MaximumHeightRequest="200"
+                MaximumWidthRequest="200"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+        <ListView Grid.Row="3"
+        Grid.Column="0"
+        Grid.ColumnSpan="2"
+        ItemsSource="{Binding RespuestasPos}" 
+        SelectedItem="{Binding RespuestaSelec}" 
+        BackgroundColor="#F8F9FA"
+        HasUnevenRows="True"
+        VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label  Text="{Binding Nombre}"
+                                FontAttributes="Bold"
+                                FontSize="16"
+                                TextColor="#333" />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Command="{Binding BtnEnviarCmd}" 
+                Grid.Row="4"
+                Grid.Column="0"
+                Grid.ColumnSpan="4"
+                Text="Intentar" 
+                MaximumWidthRequest="100"
+                BackgroundColor="#28A745"
+                TextColor="White"
+                CornerRadius="10"
+                HorizontalOptions="Center" />
+    </Grid>
+</ContentPage>

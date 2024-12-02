@@ -14,11 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDMaui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1f95a71d01506cebb6460a97a16f56d5525b4afb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+17e77b2ad78c7c60b06577788d2884af43bd0898")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS17.5")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS11.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

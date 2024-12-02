@@ -1,0 +1,46 @@
+ENT
+	ClsCandidato:
+			+ int Id { ;get ;set }
+			+ string Nombre { ;get ;set }
+			+ Cls Candidato ()
+			+ Cls Candidato (int Id, string Nombre)
+
+DAL
+	DALListadoCandidatos:
+			+ static List<ClsCandidato> sacarCandidatosDAL
+
+	DALManejadoraCandidatos:
+			+ static ClsCandidato buscaCandidatoDAL(int id)
+
+BL
+	BLListadoCandidatos:
+			+ static List<ClsCandidato> sacarCandidatosBL
+
+	BLManejadoraCandidatos:
+			+ static ClsCandidato buscaCandidatoBL(int id)
+
+UiMaui
+	VM
+		JuegoVM : clsVMBase
+			- int respuestaCorrecta { ;get ;set }
+			- ObservableColection<ClsCandidato> respuestasPosibles { ;get ;set}
+			- ClsCandidato respuestaSelect { ;get ;set }
+			- int intentos { ;get ;set }
+			- int aciertos { ;get ;set }
+			- int errores { ;get ;set }
+			- delegateCommand btnEnviarCommand { ;get }
+			- delegateCommand btnReiniciarCommnad { ;get }
+
+			+ JuegoVM()
+
+			+ int sacaRandom()
+			+ List<ClsCandidatos> respuestas()
+			+ ReiniciarcanExecute (si se llega a las 5 preguntas)
+			+ EnviarcanExecute (Si no llega a las 5 preguntas)
+			+ btnEnviarCommandExecute
+			+ btnReiniciarCommandExecute
+
+	View
+		JuegoView
+			
+			

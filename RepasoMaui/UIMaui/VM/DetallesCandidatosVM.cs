@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Widget;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,10 @@ namespace UIMaui.VM
     [QueryProperty(nameof(Candidato), "candidato")]
     public class DetallesCandidatosVM : clsVMBase
     {
+        //var toast = Toast.Make("Persona editada correctamente", ToastDuration.Short, 14);
+        //await toast.Show(token.Token);
+        //await Shell.Current.GoToAsync("///listadoPersonas");
+
         #region ATRIBUTOS
         private ClsCandidatoEdadModel candidato;
 
