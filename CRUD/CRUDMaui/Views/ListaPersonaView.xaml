@@ -45,7 +45,8 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Grid.Row="1" Grid.ColumnSpan="3" CornerRadius="100"
+        <Button Command="{Binding BtnAnadirCmd}"
+                Grid.Row="1" Grid.ColumnSpan="3" CornerRadius="100"
                 MaximumWidthRequest="70" MaximumHeightRequest="70"
                 HorizontalOptions="End"  VerticalOptions="End" ImageSource="add.png" />
     </Grid>

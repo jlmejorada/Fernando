@@ -20,10 +20,7 @@ namespace CRUDMaui.VM
         #region PROPIEDADES
         public ClsPersonaNombreDepartamento Persona
         {
-            get
-            {
-                return persona;
-            }
+            get { return persona; }
             set
             {
                 persona = value;

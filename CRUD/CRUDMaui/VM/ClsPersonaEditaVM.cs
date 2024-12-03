@@ -11,30 +11,21 @@ using System.Threading.Tasks;
 namespace CRUDMaui.VM
 {
     [QueryProperty(nameof(Persona), "persona")]
-    public class ClsPersonaConDepartamentosVM : clsVMBase
+    public class ClsPersonaEditaVM : clsVMBase
     {
         #region ATRIBUTOS
         private List<ClsDepartamento> departamentos;
-        private ClsPersonaNombreDepartamento persona;
+        private ClsPersona persona;
         private DelegateCommand btnVolverCmd;
         private DelegateCommand btnGuardarCmd;
         private ClsDepartamento dep;
         #endregion
 
         #region PROPIEDADES
-        public List<ClsDepartamento> Departamentos
+        public List<ClsDepartamento> Departamentos { get {return departamentos; } }
+        public ClsPersona Persona
         {
-            get
-            {
-                return departamentos;
-            }
-        }
-        public ClsPersonaNombreDepartamento Persona
-        {
-            get
-            {
-                return persona;
-            }
+            get { return persona; }
             set
             {
                 persona = value;
@@ -62,24 +53,9 @@ namespace CRUDMaui.VM
         /// <summary>
         /// Constructor por defectos
         /// </summary>
-        public ClsPersonaConDepartamentosVM()
+        public ClsPersonaEditaVM()
         {
             departamentos = ClsListadoDepartamentoBL.ListaDepartamentosBL();
-        }
-        /// <summary>
-        /// Constructor con parametros 
-        /// </summary>
-        /// <param name="persona"></param>
-        public ClsPersonaConDepartamentosVM(ClsPersona persona)
-        {
-            this.persona.Id = persona.Id;
-            this.persona.Nombre = persona.Nombre;
-            this.persona.Apellidos = persona.Apellidos;
-            this.persona.Telefono = persona.Telefono;
-            this.persona.Direccion = persona.Direccion;
-            this.persona.Foto = persona.Foto;
-            this.persona.FechaNacimiento = persona.FechaNacimiento;
-            this.persona.IDDepartamento = persona.IDDepartamento;
             departamentos = ClsListadoDepartamentoBL.ListaDepartamentosBL();
             btnVolverCmd = new DelegateCommand(btnVolverCmdExecute);
             btnGuardarCmd = new DelegateCommand(btnGuardarCmdExecute);
@@ -94,7 +70,6 @@ namespace CRUDMaui.VM
         private async void btnGuardarCmdExecute()
         {
             ClsManejadoraPersonaBL.EditaPersonaBL(persona);
-            //NOSE COMO CAMBIA LA OBSERVABLE COLLECTION
             await Shell.Current.GoToAsync("///listaPersona");
         }
         #endregion

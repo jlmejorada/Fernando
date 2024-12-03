@@ -6,7 +6,7 @@
              Title="EditarPersonaView">
 
     <ContentPage.BindingContext>
-        <vmodel:ClsPersonaConDepartamentosVM />
+        <vmodel:ClsPersonaEditaVM />
     </ContentPage.BindingContext>
 
     <Grid Padding="10">

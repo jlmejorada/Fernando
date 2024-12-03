@@ -95,7 +95,7 @@ namespace CRUDMaui.VM
         }
         private async void btnEditaCmdExecute()
         {
-            ClsPersonaNombreDepartamento persona = personaSeleccionada;
+            ClsPersona persona = new ClsPersona(PersonaSeleccionada);
             var queryParams = new Dictionary<string, Object>
             {
                  {"persona",  persona}
@@ -103,10 +103,12 @@ namespace CRUDMaui.VM
 
             await Shell.Current.GoToAsync("///editaPersona", queryParams);
         }
-        private void btnAnadeCmdExecute()
-        {
 
+        private async void btnAnadeCmdExecute()
+        {
+            await Shell.Current.GoToAsync("///anadePersona");
         }
+
         private void btnBorraCmdExecute()
         {
             ClsPersonaNombreDepartamento persona = personaSeleccionada;
