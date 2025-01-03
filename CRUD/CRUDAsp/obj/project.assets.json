@@ -6772,23 +6772,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jlmejorada\\.nuget\\packages\\": {},
+    "C:\\Users\\mamej\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\CRUDAsp.csproj",
+      "projectUniqueName": "D:\\Repositorio\\Fernando\\CRUD\\CRUDAsp\\CRUDAsp.csproj",
       "projectName": "CRUDAsp",
-      "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\CRUDAsp.csproj",
-      "packagesPath": "C:\\Users\\jlmejorada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDAsp\\obj\\",
+      "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\CRUDAsp\\CRUDAsp.csproj",
+      "packagesPath": "C:\\Users\\mamej\\.nuget\\packages\\",
+      "outputPath": "D:\\Repositorio\\Fernando\\CRUD\\CRUDAsp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jlmejorada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mamej\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6804,11 +6804,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\BL\\BL.csproj"
+            "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj": {
+              "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\BL\\BL.csproj"
             },
-            "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj": {
-              "projectPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\ENT\\ENT.csproj"
+            "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj": {
+              "projectPath": "D:\\Repositorio\\Fernando\\CRUD\\ENT\\ENT.csproj"
             }
           }
         }
@@ -6856,7 +6856,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

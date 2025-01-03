@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\",
+  "WorkspaceRootPath": "D:\\Repositorio\\Fernando\\CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\views\\listadepartamentoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\views\\listadepartamentoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\views\\listadepartamentoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\views\\detallespersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\views\\detallespersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\views\\detallespersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\views\\agregarpersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\views\\agregarpersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\views\\agregarpersonaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\vm\\clspersonaagregavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\vm\\clspersonaagregavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\vm\\clspersonaagregavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\vm\\clslistadopersonasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\vm\\clslistadopersonasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\vm\\clslistadopersonasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\vm\\clspersonaeditavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\vm\\clspersonaeditavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\vm\\clspersonaeditavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|c:\\users\\jlmejorada\\desktop\\repositorios\\fernando\\crud\\crudmaui\\vm\\clsdetallespersonavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|d:\\repositorio\\fernando\\crud\\crudmaui\\vm\\clsdetallespersonavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB19EE25-187F-4045-88F2-B60E7FF1DC3F}|CRUDMaui\\CRUDMaui.csproj|solutionrelative:crudmaui\\vm\\clsdetallespersonavm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ListaDepartamentoView.xaml",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\ListaDepartamentoView.xaml",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\Views\\ListaDepartamentoView.xaml",
               "RelativeDocumentMoniker": "CRUDMaui\\Views\\ListaDepartamentoView.xaml",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\ListaDepartamentoView.xaml",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\Views\\ListaDepartamentoView.xaml",
               "RelativeToolTip": "CRUDMaui\\Views\\ListaDepartamentoView.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -61,79 +61,73 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DetallesPersonaView.xaml",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\DetallesPersonaView.xaml",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\Views\\DetallesPersonaView.xaml",
               "RelativeDocumentMoniker": "CRUDMaui\\Views\\DetallesPersonaView.xaml",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\DetallesPersonaView.xaml",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\Views\\DetallesPersonaView.xaml",
               "RelativeToolTip": "CRUDMaui\\Views\\DetallesPersonaView.xaml",
               "ViewState": "AgIAACQAAAAAAAAAAAAhwDMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T13:28:44.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:28:44.802Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AgregarPersonaView.xaml",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\AgregarPersonaView.xaml",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\Views\\AgregarPersonaView.xaml",
               "RelativeDocumentMoniker": "CRUDMaui\\Views\\AgregarPersonaView.xaml",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\Views\\AgregarPersonaView.xaml",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\Views\\AgregarPersonaView.xaml",
               "RelativeToolTip": "CRUDMaui\\Views\\AgregarPersonaView.xaml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAD4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T13:27:13.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:27:13.091Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ClsPersonaAgregaVM.cs",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaAgregaVM.cs",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaAgregaVM.cs",
               "RelativeDocumentMoniker": "CRUDMaui\\VM\\ClsPersonaAgregaVM.cs",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaAgregaVM.cs",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaAgregaVM.cs",
               "RelativeToolTip": "CRUDMaui\\VM\\ClsPersonaAgregaVM.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:25:38.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:25:38.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ClsListadoPersonasVM.cs",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasVM.cs",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasVM.cs",
               "RelativeDocumentMoniker": "CRUDMaui\\VM\\ClsListadoPersonasVM.cs",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasVM.cs",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsListadoPersonasVM.cs",
               "RelativeToolTip": "CRUDMaui\\VM\\ClsListadoPersonasVM.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAAwGEAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:06:19.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:06:19.952Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ClsPersonaEditaVM.cs",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaEditaVM.cs",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaEditaVM.cs",
               "RelativeDocumentMoniker": "CRUDMaui\\VM\\ClsPersonaEditaVM.cs",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaEditaVM.cs",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsPersonaEditaVM.cs",
               "RelativeToolTip": "CRUDMaui\\VM\\ClsPersonaEditaVM.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:08:56.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:08:56.79Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ClsDetallesPersonaVM.cs",
-              "DocumentMoniker": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsDetallesPersonaVM.cs",
+              "DocumentMoniker": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsDetallesPersonaVM.cs",
               "RelativeDocumentMoniker": "CRUDMaui\\VM\\ClsDetallesPersonaVM.cs",
-              "ToolTip": "C:\\Users\\jlmejorada\\Desktop\\Repositorios\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsDetallesPersonaVM.cs",
+              "ToolTip": "D:\\Repositorio\\Fernando\\CRUD\\CRUDMaui\\VM\\ClsDetallesPersonaVM.cs",
               "RelativeToolTip": "CRUDMaui\\VM\\ClsDetallesPersonaVM.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T13:12:58.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T13:12:58.699Z"
             }
           ]
         },

@@ -1,0 +1,23 @@
+ENT
+	Partida:
+		int dificultad
+		int numBombas
+		int descubiertas
+		ObservableCollection<Casilla> tablero
+		Casilla casillaSeleccionada {get;set;}
+
+	Casilla
+		bool esBomba {get;set;}
+		bool revelada {get;set;}
+		String foto {get}
+
+BL
+	ManejadoraBL
+		cuantasCasillas(int dificultad)
+		cuantasNumBombas(int dificultad)
+		cuantasDescubiertas(int dificultad)
+
+VIEWMODEL
+	JuegoVM
+		int aciertos
+		Partida partidaActual
